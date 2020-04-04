@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gib QCam</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
+    </head>
+    <body style="background-color:lightgrey;">
+        <h1>QCam</h1>
+        <video id="my-video" class="video-js" controls preload="auto" width="426" height="240" poster="/img/SmallLogo.png" data-setup="{}" >
+            <source src="http://192.168.1.25/video/master.m3u8" type="application/x-mpegURL">
+        </video>
+        <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
+    </body>
+    <footer>
+        <div id="block_container">
+            <div id="bloc1">
+                &copy 2020 - FullTech Solutions
+            </div>
+            <div id="bloc2">
+                <img src="../img/SmallLogo.png" alt="FullTech Solutions" style="width:100px;height:60px;">
+            </div>
+            <div id="bloc3" class="social">
+                <a href="mailto:fulltech.gi@gmail.com" class="support">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</html>

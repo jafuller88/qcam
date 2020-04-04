@@ -1,0 +1,15 @@
+#block_container
+{
+    padding-top: 50px;
+    text-align:left;
+}
+#bloc1, #bloc3
+{
+    display:inline;
+}
+
+#bloc2
+{
+    padding-top: 50px;
+    display:inline;
+}
